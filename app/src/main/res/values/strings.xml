@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AndroidLevel1</string>
+    <string name="greenBack">Зелёный фон</string>
+    <string name="startText">Моё первое приложение!</string>
+    <string name="changeTextBtn">Сменить текст</string>
+    <string name="colorOff">Выключить цвет фона</string>
+    <string name="colorOn">Включить цвет фона</string>
+    <string name="checkbox">Наверное, всё работает</string>
+    <string name="point_2">Задание 2</string>
+    <string name="edit_text">Тут всякие EditText и календарик</string>
+    <string name="text">Вставьте обычный текст</string>
+    <string name="name">Вставьте имя</string>
+    <string name="phone">Сюда телефон</string>
+    <string name="number">Вставьте циферку</string>
+    <string name="password">Впишите пароль</string>
+    <string name="e_mail">Ваш E-mail</string>
+    <string name="time">Время вот сюда</string>
+    <string name="goToMain">На главный экран</string>
+</resources>

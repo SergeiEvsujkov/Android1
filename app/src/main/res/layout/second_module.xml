@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/backGround1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33a0f3"
+        android:orientation="vertical"
+        tools:context=".SecondModule">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="@string/edit_text"
+            android:textColor="#cc1aca"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:autofillHints=""
+            android:hint="@string/text"
+            android:inputType="text"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:autofillHints=""
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:autofillHints=""
+            android:hint="@string/phone"
+            android:inputType="phone"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:autofillHints=""
+            android:hint="@string/number"
+            android:inputType="number"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:autofillHints=""
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="8dp"
+            android:autofillHints=""
+            android:hint="@string/e_mail"
+            android:inputType="textEmailAddress"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:autofillHints=""
+            android:hint="@string/time"
+            android:inputType="time"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+
+        <CalendarView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="2dp"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/mainModule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="40dp"
+            android:text="@string/goToMain" />
+
+    </LinearLayout>
+
+</ScrollView>
