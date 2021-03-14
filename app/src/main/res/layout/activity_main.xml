@@ -1,86 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/backGround"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#33a0f3"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/text"
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/backGround"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginRight="8dp"
-        android:gravity="center"
-        android:text="@string/startText"
-        android:textColor="#cc1aca"
-        android:textSize="38sp"
-        android:textStyle="italic" />
+        android:background="#33a0f3"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginRight="8dp"
-        android:autofillHints=""
-        android:gravity="center"
-        android:inputType="text"
-        tools:ignore="LabelFor" />
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="@string/startText"
+            android:textColor="#cc1aca"
+            android:textSize="38sp"
+            android:textStyle="italic" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginRight="20dp"
-        android:text="@string/changeTextBtn" />
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:autofillHints=""
+            android:gravity="center"
+            android:inputType="text"
+            tools:ignore="LabelFor" />
 
-    <Switch
-        android:id="@+id/switchBackGrd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginRight="8dp"
-        android:text="@string/greenBack"
-        android:textColor="#ffffff"
-        tools:ignore="UseSwitchCompatOrMaterialXml" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/changeTextBtn" />
 
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginRight="8dp"
-        android:text="@string/checkbox"
-        android:textColor="#ffffff" />
+        <Switch
+            android:id="@+id/switchBackGrd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/greenBack"
+            android:textColor="#ffffff"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
 
-    <ToggleButton
-        android:id="@+id/toggleButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginRight="8dp"
-        android:checked="false"
-        android:textOff="@string/colorOff"
-        android:textOn="@string/colorOn" />
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/checkbox"
+            android:textColor="#ffffff" />
 
-    <Button
-        android:id="@+id/checkModule"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginRight="40dp"
-        android:text="@string/point_2" />
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:checked="false"
+            android:textOff="@string/colorOff"
+            android:textOn="@string/colorOn" />
 
-</LinearLayout>
+        <Button
+            android:id="@+id/checkModule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="40dp"
+            android:text="@string/point_2" />
+
+    </LinearLayout>
+</ScrollView>
